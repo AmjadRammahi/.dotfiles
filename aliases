@@ -1,0 +1,61 @@
+# +--------+
+# | System |
+# +--------+
+
+alias shutdown='sudo shutdown now'
+alias restart='sudo reboot'
+alias suspend='sudo pm-suspend'
+
+# +-----------+
+# | aws login |
+# +-----------+
+
+alias aws-login='export AWS_PROFILE=management; aws sso login'
+
+# +----+
+# | ls |
+# +----+
+
+alias ls='ls --color=auto'
+alias lsl='ls -l'
+alias ll='ls -lahF'
+alias lls='ls -lahFtr'
+alias la='ls -la'
+alias l='ls -CF'
+
+# +----+
+# | cp |
+# +----+
+
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -i'
+alias la='ls -alh'
+
+# +------+
+# | grep |
+# +------+
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# +-----+
+# | Git |
+# +-----+
+
+alias gl='git log --pretty=oneline'
+alias gs='git status'
+alias gss='git status -s'
+alias gco='git checkout'
+alias gb='git branch'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+alias gplo='git pull origin'
+alias gpo='git push origin'
+alias gr='git branch -r' # display remote branch
+alias gd='git diff'
+alias grs='git remote show'
+alias glol='git log --graph --abbrev-commit --oneline --decorate'
+alias dif="git diff --no-index"
