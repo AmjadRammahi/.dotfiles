@@ -1,7 +1,14 @@
+# environment
 source ~/.dotfiles/zsh/zshenv
+
+# aliases
 source ~/.dotfiles/aliases/aliases
+
+# scripts
 source ~/.dotfiles/zsh/scripts.zsh
-source ~/.openrc
+
+# completion
+source ~/.dotfiles/zsh/completion.zsh
 
 # statship customization
 eval "$(starship init zsh)"

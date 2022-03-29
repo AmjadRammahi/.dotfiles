@@ -43,7 +43,7 @@ alias egrep='egrep --color=auto'
 # | Git |
 # +-----+
 
-alias gl='git log --pretty=oneline'
+alias gl='git log --oneline'
 alias gs='git status'
 alias gss='git status -s'
 alias gco='git checkout'
@@ -51,10 +51,9 @@ alias gb='git branch'
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
-alias gplo='git pull origin'
-alias gpo='git push origin'
+alias gpl='git pull'
 alias gr='git branch -r' # display remote branch
 alias gd='git diff'
 alias grs='git remote show'
-alias glol='git log --graph --abbrev-commit --oneline --decorate'
+alias glg='git log --graph --abbrev-commit --oneline --decorate'
 alias dif="git diff --no-index"
