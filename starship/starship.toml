@@ -7,36 +7,34 @@ disabled = true
 disabled = false
 
 [character]     
-success_symbol = "[➜](bold green) "
+success_symbol = "[❯](bold green) "
 error_symbol = "[✗](bold red) "
 
 [cmd_duration]
 min_time = 500
 
-[env_var]
-variable = "OS_PROJECT_NAME"
-style = "bold red"
+[openstack]
+format = "on [$symbol $cloud(\\($project\\))]($style) "
+style = "bold yellow"
+symbol = "☁️ "
 
 [docker_context]
 symbol = "🐳 "
 
 [git_branch]
-symbol = "🌱 "
+symbol = " "
 
 [hg_branch]
-symbol = "on [🌱 $branch](bold purple)"
+symbol = "on [ $branch](bold purple)"
 
 [memory_usage]
 symbol = "🐏 "
 
 [terraform]
-format = "[🏎 💨 $workspace]($style) "
+format = "[💨 $workspace]($style) "
 
 [nix_shell]
 symbol = "❄️ "
-
-[nodejs]
-symbol = "🤖 "
 
 [package]
 symbol = "📦 "
@@ -47,3 +45,15 @@ symbol = "🐘 "
 [python]
 symbol = "🐍 "
 style = "bold green"
+
+[nodejs]
+symbol = "🤖 "
+style = "bold green"
+
+[java]
+style = "bold green"
+
+[scala]
+symbol = "🆂 "
+style = "red dimmed"
+
